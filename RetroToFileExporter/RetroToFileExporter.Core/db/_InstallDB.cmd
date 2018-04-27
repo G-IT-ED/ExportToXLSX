@@ -1,0 +1,33 @@
+@echo off
+
+REM Входные параметры:
+REM 1 - Тип сборки: Release или Debug.
+set THIS_BATFILE_PATH=%~dp0
+set BUILD_CONF=%1
+
+set CONFIGDB=%THIS_BATFILE_PATH%config.db
+set WORKDB=%THIS_BATFILE_PATH%work.db
+
+set RSDUWIN_BUILD_PATH=P:\RSDUWin\%BUILD_CONF%\Services\RetroToFileExporter\db\
+
+:CheckDir
+IF NOT EXIST "%RSDUWIN_BUILD_PATH%" (mkdir %RSDUWIN_BUILD_PATH%)
+
+:CheckConfigDB
+IF NOT EXIST "%RSDUWIN_BUILD_PATH%config.db" (GOTO INSTALL_CONFIG_DB) ELSE (GOTO CheckWorkDB)
+
+:INSTALL_CONFIG_DB
+xcopy /E /Y /R %CONFIGDB% %RSDUWIN_BUILD_PATH% 
+GOTO CheckWorkDB
+
+:CheckWorkDB
+IF NOT EXIST "%RSDUWIN_BUILD_PATH%work.db" (GOTO INSTALL_WORK_DB) ELSE (GOTO END)
+
+:INSTALL_WORK_DB
+xcopy /E /Y /R %WORKDB% %RSDUWIN_BUILD_PATH% 
+GOTO END
+
+
+
+
+:END

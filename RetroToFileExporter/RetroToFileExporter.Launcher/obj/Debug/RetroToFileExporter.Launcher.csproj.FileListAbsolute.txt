@@ -1,0 +1,14 @@
+C:\TORTOISE\WinClient.hg\C#\Services\RetroToFileExporter\RetroToFileExporter.Launcher\bin\Debug\RetroToFileExporter.Launcher.exe.config
+C:\TORTOISE\WinClient.hg\C#\Services\RetroToFileExporter\RetroToFileExporter.Launcher\bin\Debug\RetroToFileExporter.Launcher.exe
+C:\TORTOISE\WinClient.hg\C#\Services\RetroToFileExporter\RetroToFileExporter.Launcher\bin\Debug\RetroToFileExporter.Launcher.pdb
+C:\TORTOISE\WinClient.hg\C#\Services\RetroToFileExporter\RetroToFileExporter.Launcher\obj\Debug\RetroToFileExporter.Launcher.exe
+C:\TORTOISE\WinClient.hg\C#\Services\RetroToFileExporter\RetroToFileExporter.Launcher\obj\Debug\RetroToFileExporter.Launcher.pdb
+P:\RSDUWin\Debug\Services\RSDU.INP\RetroToFileExporter\RetroToFileExporter.Launcher.exe.config
+P:\RSDUWin\Debug\Services\RSDU.INP\RetroToFileExporter\RetroToFileExporter.Launcher.exe
+P:\RSDUWin\Debug\Services\RSDU.INP\RetroToFileExporter\RetroToFileExporter.Launcher.pdb
+P:\RSDUWin\Debug\Services\RetroToFileExporter\RetroToFileExporter.Launcher.exe.config
+P:\RSDUWin\Debug\Services\RetroToFileExporter\RetroToFileExporter.Launcher.exe
+P:\RSDUWin\Debug\Services\RetroToFileExporter\RetroToFileExporter.Launcher.pdb
+P:\RSDUWin\Debug\Services\RetroToFileExporter\DB\config.db
+P:\RSDUWin\Debug\Services\RetroToFileExporter\DB\work.db
+C:\TORTOISE\WinClient.hg\C#\Services\RetroToFileExporter\RetroToFileExporter.Launcher\obj\Debug\RetroToFileExporter.Launcher.csprojResolveAssemblyReference.cache

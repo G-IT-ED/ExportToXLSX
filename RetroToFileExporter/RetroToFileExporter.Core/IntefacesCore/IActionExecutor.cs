@@ -1,0 +1,4 @@
+﻿namespace RetroToFileExporter.Core.Interfaces
+{
+    
+}

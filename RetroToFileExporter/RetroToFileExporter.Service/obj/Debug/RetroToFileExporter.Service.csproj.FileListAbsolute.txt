@@ -1,0 +1,37 @@
+C:\TORTOISE\WinClient.hg\C#\Services\RetroToFileExporter\RetroToFileExporter.Service\bin\Debug\RetroToFileExporter.Service.exe.config
+C:\TORTOISE\WinClient.hg\C#\Services\RetroToFileExporter\RetroToFileExporter.Service\bin\Debug\RetroToFileExporter.Service.exe
+C:\TORTOISE\WinClient.hg\C#\Services\RetroToFileExporter\RetroToFileExporter.Service\bin\Debug\RetroToFileExporter.Service.pdb
+C:\TORTOISE\WinClient.hg\C#\Services\RetroToFileExporter\RetroToFileExporter.Service\bin\Debug\RetroToFileExporter.Core.dll
+C:\TORTOISE\WinClient.hg\C#\Services\RetroToFileExporter\RetroToFileExporter.Service\bin\Debug\RSDU.dll
+C:\TORTOISE\WinClient.hg\C#\Services\RetroToFileExporter\RetroToFileExporter.Service\bin\Debug\RSDU.INP.dll
+C:\TORTOISE\WinClient.hg\C#\Services\RetroToFileExporter\RetroToFileExporter.Service\bin\Debug\System.Data.SQLite.dll
+C:\TORTOISE\WinClient.hg\C#\Services\RetroToFileExporter\RetroToFileExporter.Service\bin\Debug\Rsdu.Network.dll
+C:\TORTOISE\WinClient.hg\C#\Services\RetroToFileExporter\RetroToFileExporter.Service\bin\Debug\RSDU.DataRegistry.dll
+C:\TORTOISE\WinClient.hg\C#\Services\RetroToFileExporter\RetroToFileExporter.Service\bin\Debug\RSDU.Domain.dll
+C:\TORTOISE\WinClient.hg\C#\Services\RetroToFileExporter\RetroToFileExporter.Service\bin\Debug\RSDU.Database.Mappers.dll
+C:\TORTOISE\WinClient.hg\C#\Services\RetroToFileExporter\RetroToFileExporter.Service\bin\Debug\Ionic.Zip.Reduced.dll
+C:\TORTOISE\WinClient.hg\C#\Services\RetroToFileExporter\RetroToFileExporter.Service\bin\Debug\RabbitMQ.Client.dll
+C:\TORTOISE\WinClient.hg\C#\Services\RetroToFileExporter\RetroToFileExporter.Service\bin\Debug\Oracle.DataAccess.dll
+C:\TORTOISE\WinClient.hg\C#\Services\RetroToFileExporter\RetroToFileExporter.Service\bin\Debug\RSDU.INP.pdb
+C:\TORTOISE\WinClient.hg\C#\Services\RetroToFileExporter\RetroToFileExporter.Service\bin\Debug\RSDU.pdb
+C:\TORTOISE\WinClient.hg\C#\Services\RetroToFileExporter\RetroToFileExporter.Service\bin\Debug\RetroToFileExporter.Core.pdb
+C:\TORTOISE\WinClient.hg\C#\Services\RetroToFileExporter\RetroToFileExporter.Service\bin\Debug\System.Data.SQLite.xml
+C:\TORTOISE\WinClient.hg\C#\Services\RetroToFileExporter\RetroToFileExporter.Service\bin\Debug\Rsdu.Network.pdb
+C:\TORTOISE\WinClient.hg\C#\Services\RetroToFileExporter\RetroToFileExporter.Service\bin\Debug\RSDU.DataRegistry.pdb
+C:\TORTOISE\WinClient.hg\C#\Services\RetroToFileExporter\RetroToFileExporter.Service\bin\Debug\RSDU.Domain.pdb
+C:\TORTOISE\WinClient.hg\C#\Services\RetroToFileExporter\RetroToFileExporter.Service\bin\Debug\RSDU.Database.Mappers.pdb
+C:\TORTOISE\WinClient.hg\C#\Services\RetroToFileExporter\RetroToFileExporter.Service\bin\Debug\RabbitMQ.Client.xml
+C:\TORTOISE\WinClient.hg\C#\Services\RetroToFileExporter\RetroToFileExporter.Service\obj\Debug\RetroToFileExporter.Service.exe
+C:\TORTOISE\WinClient.hg\C#\Services\RetroToFileExporter\RetroToFileExporter.Service\obj\Debug\RetroToFileExporter.Service.pdb
+P:\RSDUWin\Debug\Services\RSDU.INP\TransferKDUtoSK2007\RetroToFileExporter.Service.exe.config
+P:\RSDUWin\Debug\Services\RetroToFileExporter\RetroToFileExporter.Service.exe.config
+P:\RSDUWin\Debug\Services\RetroToFileExporter\RetroToFileExporter.Service.exe
+P:\RSDUWin\Debug\Services\RetroToFileExporter\RetroToFileExporter.Service.pdb
+P:\RSDUWin\Debug\Services\RetroToFileExporter\ServiceDefinition.xml
+P:\RSDUWin\Debug\Services\RetroToFileExporter\01. Install.bat
+P:\RSDUWin\Debug\Services\RetroToFileExporter\02. Start.bat
+P:\RSDUWin\Debug\Services\RetroToFileExporter\03. Stop.bat
+P:\RSDUWin\Debug\Services\RetroToFileExporter\04. Uninstall.bat
+P:\RSDUWin\Debug\Services\RetroToFileExporter\db\config.db
+P:\RSDUWin\Debug\Services\RetroToFileExporter\db\work.db
+C:\TORTOISE\WinClient.hg\C#\Services\RetroToFileExporter\RetroToFileExporter.Service\obj\Debug\RetroToFileExporter.Service.csprojResolveAssemblyReference.cache

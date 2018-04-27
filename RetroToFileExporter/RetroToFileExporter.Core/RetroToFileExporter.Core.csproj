@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C03F4306-613C-4AAE-97D6-B5D88D1C8DD4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RetroToFileExporter.Core</RootNamespace>
+    <AssemblyName>RetroToFileExporter.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\..\..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>P:\RSDUWin\Debug\Services\RetroToFileExporter\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>P:\RSDUWin\Release\Services\RetroToFileExporter\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Common.Logging, Version=3.3.1.0, Culture=neutral, PublicKeyToken=af08829b84f0328e, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Common.Logging.3.3.1\lib\net40\Common.Logging.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Common.Logging.Core, Version=3.3.1.0, Culture=neutral, PublicKeyToken=af08829b84f0328e, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Common.Logging.Core.3.3.1\lib\net40\Common.Logging.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Data.v15.2, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Docs.v15.2, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Office.v15.2.Core, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v15.2.Core, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Spreadsheet.v15.2.Core, Version=15.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PresentationFramework" />
+    <Reference Include="Quartz, Version=2.4.1.0, Culture=neutral, PublicKeyToken=f6b8c98a402cc8a4, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Quartz.2.4.1\lib\net40\Quartz.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite, Version=1.0.99.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\System.Data.SQLite.Core.1.0.99.0\lib\net45\System.Data.SQLite.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.SQLite.EF6, Version=1.0.99.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\System.Data.SQLite.EF6.1.0.99.0\lib\net45\System.Data.SQLite.EF6.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.SQLite.Linq, Version=1.0.99.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\System.Data.SQLite.Linq.1.0.99.0\lib\net45\System.Data.SQLite.Linq.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ConfigStorage.cs" />
+    <Compile Include="Config\ConfigParamDefine.cs" />
+    <Compile Include="Config\ConfigSQLiteDB.cs" />
+    <Compile Include="Defines\SettingDefines.cs" />
+    <Compile Include="Defines\WorkVariableDefines.cs" />
+    <Compile Include="IntefacesCore\IQuartzSchedule.cs" />
+    <Compile Include="IntefacesCore\IQueueAdminAction.cs" />
+    <Compile Include="IntefacesCore\IQueueAdminSchedule.cs" />
+    <Compile Include="IntefacesCore\IQueueConsumerAction.cs" />
+    <Compile Include="IntefacesCore\IQueueConsumerSchedule.cs" />
+    <Compile Include="IntefacesCore\IQueuePublisherAction.cs" />
+    <Compile Include="IntefacesCore\IQueuePublisherSchedule.cs" />
+    <Compile Include="Models\QueueObjectAction.cs" />
+    <Compile Include="Models\ListQueueObjects.cs" />
+    <Compile Include="Models\QuartzSchedule.cs" />
+    <Compile Include="Models\DataExporter.cs" />
+    <Compile Include="IntefacesCore\IDataExporter.cs" />
+    <Compile Include="IntefacesCore\ISchedule.cs" />
+    <Compile Include="IntefacesCore\IScheduleSettings.cs" />
+    <Compile Include="IntefacesCore\IActionExecutor.cs" />
+    <Compile Include="Models\QueueObjectSchedule.cs" />
+    <Compile Include="Models\QueueScheduleStorage.cs" />
+    <Compile Include="Models\ScheduleStorage.cs" />
+    <Compile Include="Models\Schedule.cs" />
+    <Compile Include="Models\ActionsStorage.cs" />
+    <Compile Include="IntefacesCore\IReceiveRetroThreadVariables.cs" />
+    <Compile Include="IntefacesCore\ISchedulerExporter.cs" />
+    <Compile Include="IntefacesCore\IAction.cs" />
+    <Compile Include="IntefacesCore\IActionSettings.cs" />
+    <Compile Include="Objects\MultyThreadQueue.cs" />
+    <Compile Include="Objects\QueryCondition.cs" />
+    <Compile Include="Models\Action.cs" />
+    <Compile Include="Objects\ArchiveChangedEventArgs.cs" />
+    <Compile Include="Objects\RetroQueueSqlLite.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReceiveRetroKadrThread.cs" />
+    <Compile Include="ReceiveRetroKadrThreadEx.cs" />
+    <Compile Include="Service\ServiceMain.cs" />
+    <Compile Include="WorkStorage.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="db\config.db" />
+    <None Include="db\work.db" />
+    <None Include="db\_InstallDB.cmd" />
+    <None Include="job_scheduling_data_2_0.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Libs\RSDU.Database.Mappers\RSDU.Database.Mappers.csproj">
+      <Project>{2871f94a-b3d1-4df9-bd02-8f4deea07842}</Project>
+      <Name>RSDU.Database.Mappers</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Libs\RSDU.DataRegistry\RSDU.DataRegistry.csproj">
+      <Project>{a8b1896f-2830-40cd-a492-9cdff75ec2ed}</Project>
+      <Name>RSDU.DataRegistry</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Libs\RSDU.Domain\RSDU.Domain.csproj">
+      <Project>{085a7542-f9d7-4f64-ae31-20c790d35515}</Project>
+      <Name>RSDU.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Libs\RSDU.INP\RSDU.INP.csproj">
+      <Project>{587f3982-ccd9-467f-9136-de865d64de53}</Project>
+      <Name>RSDU.INP</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Libs\RSDU.Network\RSDU.Network.csproj">
+      <Project>{f5e455dd-3f57-4f95-b6be-52fecfbf86ae}</Project>
+      <Name>RSDU.Network</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Libs\RSDU\RSDU.csproj">
+      <Project>{f2b5cd94-0fad-429a-8c06-60bc59df61c9}</Project>
+      <Name>RSDU</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>$(ProjectDir)..\..\..\..\BuildTools\GenVersionTool\GenVersionC#.bat client $(ProjectDir)Properties\</PreBuildEvent>
+  </PropertyGroup>
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('$(SolutionDir)\.nuget\NuGet.targets')" Text="$([System.String]::Format('$(ErrorText)', '$(SolutionDir)\.nuget\NuGet.targets'))" />
+    <Error Condition="!Exists('..\..\..\packages\System.Data.SQLite.Core.1.0.99.0\build\net45\System.Data.SQLite.Core.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\..\packages\System.Data.SQLite.Core.1.0.99.0\build\net45\System.Data.SQLite.Core.targets'))" />
+  </Target>
+  <Import Project="..\..\..\packages\System.Data.SQLite.Core.1.0.99.0\build\net45\System.Data.SQLite.Core.targets" Condition="Exists('..\..\..\packages\System.Data.SQLite.Core.1.0.99.0\build\net45\System.Data.SQLite.Core.targets')" />
+  <PropertyGroup>
+    <PostBuildEvent>$(ProjectDir)db\_InstallDB.cmd $(ConfigurationName)</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
